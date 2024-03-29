@@ -17,7 +17,7 @@
 
 <html>
     <head>
-        <title>CPSC 304 Nutrition and Meal</title>
+        <title>Nutrition and Meal</title>
     </head>
 
     <body>
@@ -182,7 +182,7 @@
 
             // Your username is ora_(CWL_ID) and the password is a(student number). For example, 
 			// ora_platypus is the username and a12345678 is the password.
-            $db_conn = OCILogon("ora_alexc330", "a43949767", 
+            $db_conn = OCILogon("ora_studentIdHere", "student_number_here", 
 "dbhost.students.cs.ubc.ca:1522/stu");
 
             if ($db_conn) {
